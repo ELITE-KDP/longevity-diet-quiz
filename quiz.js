@@ -19,7 +19,56 @@ const quizQuestions = [
             { text: "A quick snack, like chips or a candy bar", value: 0 }
         ]
     },
-    // Add the remaining questions here following the same structure
+    {
+        question: "Snack Attack",
+        description: "Mid-afternoon hunger strikes. How do you satisfy your snack cravings?",
+        options: [
+            { text: "A handful of nuts and a piece of fruit", value: 5 },
+            { text: "Greek yogurt with berries", value: 4 },
+            { text: "A bag of chips or a candy bar", value: 1 },
+            { text: "I usually don't snack", value: 0 }
+        ]
+    },
+    {
+        question: "Dinner Delights",
+        description: "As the day winds down, it's time for dinner. What does your evening meal usually look like?",
+        options: [
+            { text: "Grilled salmon with quinoa and steamed broccoli", value: 5 },
+            { text: "Stir-fried vegetables with tofu or chicken over brown rice", value: 4 },
+            { text: "A frozen pizza or takeout", value: 1 },
+            { text: "I often skip dinner or eat whatever is convenient", value: 0 }
+        ]
+    },
+    {
+        question: "Sweet Treats",
+        description: "Do you indulge in desserts? If so, what's your go-to sweet treat?",
+        options: [
+            { text: "A small piece of dark chocolate or a fruit parfait", value: 5 },
+            { text: "A couple of cookies or a slice of cake", value: 3 },
+            { text: "Ice cream or a sugary dessert every night", value: 1 },
+            { text: "I rarely have desserts", value: 0 }
+        ]
+    },
+    {
+        question: "Hydration Habits",
+        description: "Staying hydrated is crucial. How do you usually keep up with your hydration needs?",
+        options: [
+            { text: "I drink plenty of water throughout the day", value: 5 },
+            { text: "I mix water with herbal teas or infusions", value: 4 },
+            { text: "I mostly drink sugary drinks or sodas", value: 1 },
+            { text: "I often forget to drink water", value: 0 }
+        ]
+    },
+    {
+        question: "Supplement Savvy",
+        description: "Do you incorporate supplements into your diet to enhance your nutrition?",
+        options: [
+            { text: "Yes, I take a variety of supplements based on professional advice", value: 5 },
+            { text: "Occasionally, but not regularly", value: 3 },
+            { text: "Rarely, I don't believe in supplements", value: 1 },
+            { text: "Never", value: 0 }
+        ]
+    }
 ];
 
 function renderQuiz() {
